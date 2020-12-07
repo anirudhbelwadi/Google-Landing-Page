@@ -60,11 +60,13 @@
         </div>
     </footer>
     <script>
-        $(document).on('focus', 'input, textarea', function(){
-	        $('#googleFooter').hide();;
-        });
-        $(document).on('blur', 'input, textarea', function(){
-	        $('#googleFooter').show();
+        $(document).ready(function(){
+            $(document).on('focus', 'input, textarea', function(){
+	            $('#googleFooter').hide();;
+            });
+            $(document).on('blur', 'input, textarea', function(){
+	            $('#googleFooter').show();
+            });
         });
     </script>
 </body>
