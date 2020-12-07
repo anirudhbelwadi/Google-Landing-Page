@@ -160,7 +160,7 @@
 .bottom-foot{
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: fixed;
 }
 .bottom-foot-content{
     min-height: 1rem;
