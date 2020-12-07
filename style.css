@@ -232,9 +232,12 @@
         z-index: 1;
     }
     .bottom-foot-left{
-        margin-left: -10px;
-        margin-right: 14px;
+        margin-left: 0;
+        margin-right: 20px;
         margin-top: 25px;
+    }
+    .bottom-foot-left a, .bottom-foot-right a{
+        margin: 0 10px 0 10px;
     }
 }
 @media (max-width: 687px){
