@@ -232,7 +232,8 @@
         z-index: 1;
     }
     .bottom-foot-left{
-        margin-right: 24px;
+        margin-left: -10px;
+        margin-right: 14px;
         margin-top: 25px;
     }
 }
