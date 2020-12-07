@@ -2,6 +2,11 @@
     font-family: Arial, sans-serif;
     font-size: 14px;
 }
+body,html{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 .main-nav{
     display: flex;
     justify-content: space-between;
@@ -139,11 +144,11 @@
 .top-foot{
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 .top-foot-content{
-    position: fixed;
+    position: absolute;
     left: 0;
+    bottom: 0;
     bottom: 38.5px;
     width: 100%;
     height: 1.4rem;
@@ -160,12 +165,11 @@
 .bottom-foot{
     display: flex;
     justify-content: space-between;
-    position: fixed;
 }
 .bottom-foot-content{
+    position: absolute;
     min-height: 1rem;
     padding: 12px 10px;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
